@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    color: slategray; /* Noktalı virgül ekledik */
+    color: slategray;
     background-color: #f5f5f5;
     line-height: 1.5;
     margin: 0;
@@ -42,7 +42,7 @@ body {
   
   .contact-info a {
     color: slategray;
-    font-size: 14px; /* Noktalı virgül ekledik */
+    font-size: 14px;
   }
   
   .contact-info a:hover {
@@ -91,7 +91,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 0;
-    flex-wrap: wrap; /* Sıkışan öğelerin bir alt satıra kaymasını sağlar */
+    flex-wrap: wrap;
     margin: 40px 0;
   }
   
@@ -99,8 +99,8 @@ body {
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
-    flex: 1 1 22%; /* Yani, öğeler eşit genişlik alacak şekilde yerleşir. */
-    box-sizing: border-box; /* İç padding'leri genişliğe dahil eder */
+    flex: 1 1 22%;
+    box-sizing: border-box;
     text-align: left;
   }
   
@@ -124,7 +124,7 @@ body {
     width: 260px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hatalı box-shadow düzeltildi */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   .team-card img {
@@ -140,13 +140,13 @@ body {
   
   .team-details h3 {
     font-size: 18px;
-    font-weight: 700; /* Daha belirgin font ağırlığı */
-    margin-bottom: 10px; /* Daha fazla boşluk */
+    font-weight: 700;
+    margin-bottom: 10px;
   }
   
   .team-details p {
     font-size: 14px;
-    color: slategray; /* Daha koyu bir renk */
+    color: slategray;
   }
   
   /* Portfolio Section */
@@ -190,20 +190,16 @@ body {
     text-align: center;
   }
   
-  footer a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    line-height: 1.17;
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .portfolio-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .services {
+      flex-direction: column;
+      align-items: center;
+    }
   }
   
-  footer p {
-    color: #f4f4fd;
-    letter-spacing: 0.02em;
-  }
-  
-
 
