@@ -1,82 +1,82 @@
-/* Global Styles */
+bak tam halleri bu:/* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
-    color: slategray;
+    color: slategray; /* Noktalı virgül ekledik */
     background-color: #f5f5f5;
     line-height: 1.5;
     margin: 0;
     padding: 0;
-  }
-  
-  a {
+}
+
+a {
     text-decoration: none;
     color: inherit;
-  }
-  
-  .logo-link span {
+}
+
+.logo-link span {
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  /* Header Styles */
-  header {
+}
+
+/* Header Styles */
+header {
     background-color: white;
     color: slategray;
     padding: 10px 0;
-  }
-  
-  .header-top {
+}
+
+.header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-  }
-  
-  .contact-info {
+}
+
+.contact-info {
     display: flex;
     gap: 20px;
     align-items: center;
-  }
-  
-  .contact-info a {
+}
+
+.contact-info a {
     color: slategray;
-    font-size: 14px;
-  }
-  
-  .contact-info a:hover {
+    font-size: 14px; /* Noktalı virgül ekledik */
+}
+
+.contact-info a:hover {
     color: white;
-  }
-  
-  /* Main Content Styles */
-  main {
+}
+
+/* Main Content Styles */
+main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
-  }
-  
-  .main-title h1 {
+}
+
+.main-title h1 {
     font-size: 48px;
     color: white;
     background-color: navy;
     margin-bottom: 0;
-  }
-  
-  /* Order Service Section */
-  .order-service {
+}
+
+/* Order Service Section */
+.order-service {
     margin: 0;
     background-color: navy;
-  }
-  
-  .order-service h2 {
+}
+
+.order-service h2 {
     font-size: 32px;
     color: #333;
     margin-bottom: 20px;
-  }
-  
-  .order-service button {
+}
+
+.order-service button {
     font-size: 16px;
     padding: 10px 20px;
     border: none;
@@ -84,122 +84,112 @@ body {
     color: white;
     cursor: pointer;
     border-radius: 5px;
-  }
-  
-  /* Services Section */
-  .services {
+}
+
+/* Services Section */
+.services {
     display: flex;
     justify-content: space-between;
     gap: 0;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Sıkışan öğelerin bir alt satıra kaymasını sağlar */
     margin: 40px 0;
-  }
-  
-  .service-item {
+}
+
+.service-item {
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
-    flex: 1 1 22%;
-    box-sizing: border-box;
+    flex: 1 1 22%; /* Yani, öğeler eşit genişlik alacak şekilde yerleşir. */
+    box-sizing: border-box; /* İç padding'leri genişliğe dahil eder */
     text-align: left;
-  }
-  
-  .service-item strong {
+}
+
+.service-item strong {
     display: block;
     font-size: 18px;
     margin-bottom: 10px;
-  }
-  
-  /* Our Team Section */
-  .team-container {
+}
+
+/* Our Team Section */
+.team-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     background-color: whitesmoke;
-  }
-  
-  .team-card {
+}
+
+.team-card {
     background-color: white;
     width: 260px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .team-card img {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hatalı box-shadow düzeltildi */
+}
+
+.team-card img {
     width: 100%;
     height: auto;
     object-fit: cover;
-  }
-  
-  .team-details {
+}
+
+.team-details {
     padding: 15px;
     text-align: center;
-  }
-  
-  .team-details h3 {
+}
+
+.team-details h3 {
     font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
-  
-  .team-details p {
+    font-weight: 700; /* Daha belirgin font ağırlığı */
+    margin-bottom: 10px; /* Daha fazla boşluk */
+}
+
+.team-details p {
     font-size: 14px;
-    color: slategray;
-  }
-  
-  /* Portfolio Section */
-  .portfolio {
+    color: slategray; /* Daha koyu bir renk */
+}
+
+/* Portfolio Section */
+.portfolio {
     margin: 40px 0;
     text-align: center;
-  }
-  
-  .portfolio-grid {
+}
+
+.portfolio-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-  }
-  
-  .portfolio-item {
+}
+
+.portfolio-item {
     list-style: none;
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
     padding: 10px;
     text-align: center;
-  }
-  
-  .portfolio-item img {
+}
+
+.portfolio-item img {
     width: 100%;
     object-fit: cover;
     border-radius: 8px;
-  }
-  
-  .portfolio-item strong {
+}
+
+.portfolio-item strong {
     display: block;
     margin-top: 10px;
     font-weight: 700;
-  }
-  
-  /* Footer Styles */
-  footer {
+}
+
+/* Footer Styles */
+footer {
     background-color: #333;
     color: #fff;
     padding: 40px 20px;
     text-align: center;
-  }
-  
-  /* Media Queries */
-  @media screen and (max-width: 768px) {
-    .portfolio-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  
-    .services {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  
+}
 
+/* Media Queries */
+  
+  
