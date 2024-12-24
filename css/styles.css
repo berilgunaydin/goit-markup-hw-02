@@ -103,96 +103,92 @@ main {
 .services {
     background-color: #FFFFFF;
     padding: 40px 0;
-  }
-  
-  .services h2 {
+}
+
+.services h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 36px;
     text-align: center;
     color: #2e2f42;
     margin-bottom: 30px;
-  }
-  
-  .services ul {
+}
+
+.services ul {
     list-style-type: none;
     padding: 0;
-  }
-  
-  .services li {
+}
+
+.services li {
     margin-bottom: 20px;
-  }
-  
-  h3.strat_abc, h3.punc_xyz, h3.dil_123, h3.tech_789 {
+}
+
+h3.strat_abc, h3.punc_xyz, h3.dil_123, h3.tech_789 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-  }
-  
-  p.strat_abc, p.punc_xyz, p.dil_123, p.tech_789 {
+}
+
+p.strat_abc, p.punc_xyz, p.dil_123, p.tech_789 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-  }
-  
+}
+
 /* Our Team Section */
 .our-team {
     background-color: #f4f4fd;
-  }
-  
-  .team_title {
+}
+
+.team_title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-  }
-  
-  .team_item {
+}
+
+.team_item {
     list-style-type: none;
-  }
-  
-  .team-card {
+}
+
+.team-card {
     background-color: #FFFFFF;
     width: 260px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .team-card img {
+}
+
+.team-card img {
     width: 100%;
     height: auto;
     object-fit: cover;
-  }
-  
-  .team-details {
+}
+
+.team-details {
     padding: 15px;
     text-align: center;
-  }
-  
-  .team_name {
+}
+
+.team_name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-  }
-  
-  .role_description {
+}
+
+.role_description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-  }
-  
-
-
-
+}
 
 /* Portfolio Section */
 .portfolio {
@@ -253,7 +249,6 @@ main {
 }
 
 /* Footer Styles */
-/* Footer Styles */
 footer {
     background-color: #333;
     color: #fff;
@@ -287,7 +282,6 @@ footer {
     letter-spacing: 0.02em;
     color: #F4F4FD; /* Text color */
 }
-
 
 /* General Style Definitions */
 h2.section-title {
