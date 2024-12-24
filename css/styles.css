@@ -123,7 +123,7 @@ main {
     margin-bottom: 20px;
 }
 
-h3.strat_abc, h3.punc_xyz, h3.dil_123, h3.tech_789 {
+h3.strat-abc, h3.punc-xyz, h3.dil-123, h3.tech-789 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -131,7 +131,7 @@ h3.strat_abc, h3.punc_xyz, h3.dil_123, h3.tech_789 {
     color: #2e2f42;
 }
 
-p.strat_abc, p.punc_xyz, p.dil_123, p.tech_789 {
+p.strat-abc, p.punc-xyz, p.dil-123, p.tech-789 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
