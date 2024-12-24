@@ -43,6 +43,45 @@ header {
     padding: 0 20px;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav a.logo-link {
+    font-family: 'Raleway', sans-serif; /* Raleway fontu */
+    font-weight: 700; /* Kalın yazı */
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+nav a.logo-link span {
+    color: #2e2f42; /* Span metin rengi */
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    color: #404bbf; /* Hover ve odaklandığında renk değişir */
+}
+
+/* Contact Info */
 .contact-info {
     display: flex;
     gap: 20px;
@@ -50,13 +89,35 @@ header {
 }
 
 .contact-info a {
-    color: slategray;
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .contact-info a:hover {
-    color: white;
+    color: #404bbf; /* Hover efekt */
 }
+
+address {
+    font-style: normal; /* İtalik kaldırıldı */
+}
+
+address ul {
+    list-style-type: none;
+}
+
+address ul li a {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+address ul li a:hover, address ul li a:focus {
+    color: #404bbf; /* Hover ve odaklanıldığında renk değişir */
+}
+
 
 /* Main Content Styles */
 main {
@@ -334,5 +395,6 @@ img {
         grid-template-columns: 1fr;
     }
 }
+
 
 
