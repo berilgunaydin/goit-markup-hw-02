@@ -247,14 +247,12 @@ p.strat-abc, p.punc-xyz, p.dil-123, p.tech-789 {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 /* Footer Styles */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #2e2f42; /* Footer background color */
+    color: #fff; /* Text color */
     padding: 40px 20px;
     text-align: center;
-    background-color: #2e2f42; /* Footer background color */
 }
 
 /* Footer Logo Styles */
@@ -269,8 +267,14 @@ footer {
     text-decoration: none; /* Remove underline from link */
 }
 
+/* Footer Logo Text (WEB) */
 .footer-logo-text {
-    color: #2e2f42; /* Color for the first part of the logo */
+    color: #4d5ae5; /* Color for the first part of the logo */
+}
+
+/* Footer Logo Studio (STUDIO) */
+.footer-logo-studio {
+    color: #ffff; /* Color for the second part of the logo */
 }
 
 /* Footer Text Styles */
@@ -283,33 +287,11 @@ footer {
     color: #F4F4FD; /* Text color */
 }
 
-/* General Style Definitions */
-h2.section-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
+/* Span Styles */
+span {
+    color: #2e2f42; /* Metin rengi */
 }
 
-h3 {
-    font-family: 'Raleway', sans-serif; /* Raleway fontu */
-    font-weight: 700; /* Raleway ağırlığı */
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-p {
-    font-family: 'Roboto', sans-serif; /* Roboto fontu */
-    font-weight: 400; /* Roboto ağırlığı */
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
 
 /* Image Adjustments */
 img {
