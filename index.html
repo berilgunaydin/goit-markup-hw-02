@@ -5,154 +5,177 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
     
-
-<link rel="stylesheet" href="styles.css">
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+    <!-- Normalizing CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css">
+  
+    <!-- External CSS File Link -->
+    <link rel="stylesheet" href="css/styles.css">
   </head>
 
   <body>
     <!-- Logo bağlantısı -->
-    <a href="#" target="_self" class="logo-link">
-      <span>WEB</span>
-      <span>STUDIO</span>
+    <a href="#" target="_self" class="logo_link">
+      <span class="web_text">WEB</span>
+      <span class="studio_text">STUDIO</span>
     </a>
-    
+
     <header>
-        <div class="header-top">
-            <a href="#" class="logo">
-              <span>WEB</span><span>STUDIO</span>
-            </a>
-            <nav class="navigation">
-              <ul>
-               <li><a href="#">Studio</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
-              </ul>
-            </nav>
-            <div class="contact-info">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-              <a href="tel:+110001111111">+1 (000) 111-11-11</a>
-            </div>
-          </div>
+      <div class="header-top">
+        <!-- Logo kısmı -->
+        <a href="./index.html" class="logo_link">
+            <span class="studio_text">Studio</span>
+        </a>
+  
+        <!-- Navigasyon Menüsü -->
+        <nav class="navigation">
+            <ul>
+                <li><a href="./index.html" class="nav_link">Studio</a></li>
+                <li><a href="#" class="nav_link">Portfolio</a></li>
+                <li><a href="#" class="nav_link">Contacts</a></li>
+            </ul>
+        </nav>
+  
+        <!-- İletişim Bilgileri -->
+        <div class="contact-info">
+            <a href="mailto:info@devstudio.com" class="contact_link">info@devstudio.com</a>
+            <a href="tel:+110001111111" class="contact_link">+1 (000) 111-11-11</a>
+        </div>
+      </div>
     </header>
 
     <!-- Ana İçerik -->
     <main>
       <!-- Main Title -->
       <section class="main-title">
-        <h1>Effective Solutions <br> for Your Business</h1>
+        <h1 class="main-title_text">Effective Solutions <br> for Your Business</h1>
       </section>
 
-      <!-- Order Service Section -->
-      <section class="order-service">
+       <!-- Order Service Section -->
+       <section class="order-service">
         <button type="button">Order Service</button>
       </section>
-
-      <!-- Services Section -->
+     
       <section class="services">
-        <div class="service-item">
-          <strong>Strategy</strong>
-          <p>Our goal is to identify the business problem and walk away with the perfect and creative solution.</p>
-        </div>
-        <div class="service-item">
-          <strong>Punctuality</strong>
-          <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-        </div>
-        <div class="service-item">
-          <strong>Diligence</strong>
-          <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-        </div>
-        <div class="service-item">
-          <strong>Technologies</strong>
-          <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-        </div>
+        
+        <ul>
+          <li>
+            <h3 class="strat_abc">Strategy</h3>
+            <p class="strat_abc">Our goal is to identify the business problem and walk away with the perfect and creative solution.</p>
+          </li>
+          <li>
+            <h3 class="punc_xyz">Punctuality</h3>
+            <p class="punc_xyz">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+          </li>
+          <li>
+            <h3 class="dil_123">Diligence</h3>
+            <p class="dil_123">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+          </li>
+          <li>
+            <h3 class="tech_789">Technologies</h3>
+            <p class="tech_789">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+          </li>
+        </ul>
       </section>
-<!-- Our Team Section -->
-<section>
-  <h2>Our Team</h2>
-  <div class="team-container">
-    <div class="team-card">
-      <img src="images/img%20(1).jpg" alt="Mark Guerrero" />
-      <div class="team-details">
-        <h3>Mark Guerrero</h3>
-        <p>Product Designer</p>
-      </div>
-    </div>
-    <div class="team-card">
-      <img src="images/img%20(2)%20(1).jpg" alt="Tom Ford" />
-      <div class="team-details">
-        <h3>Tom Ford</h3>
-        <p>Frontend Developer</p>
-      </div>
-    </div>
-    <div class="team-card">
-      <img src="images/img%20(3)%20(1).jpg" alt="Camila Garcia" />
-      <div class="team-details">
-        <h3>Camila Garcia</h3>
-        <p>Marketing</p>
-      </div>
-    </div>
-    <div class="team-card">
-      <img src="images/img%20(4)%20(1).jpg" alt="Daniel Wilson" />
-      <div class="team-details">
-        <h3>Daniel Wilson</h3>
-        <p>UI Designer</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-      <!-- Portfolio Section -->
       
-<section class="portfolio">
-  <h3>Our Portfolio</h3>
-  <div class="portfolio-grid">
-    <div class="portfolio-item">
-      <img src="images/img%20(10)%20(1).jpg" alt="Banking App" />
-      <strong>Banking App</strong><br />
-      <span>App</span>
-    </div>
-    <div class="portfolio-item">
-      <img src="images/img%20(5)%20(1).jpg" alt="Cashless Payment" />
-      <strong>Cashless Payment</strong><br />
-      <span>Marketing</span>
-    </div>
-    <div class="portfolio-item">
-      <img src="images/img%20(6)%20(1).jpg" alt="Meditation App" />
-      <strong>Meditation App</strong><br />
-      <span>App</span>
-    </div>
-  </div>
+      
+      
 
-  <div class="portfolio-grid">
-    <div class="portfolio-item">
-      <img src="images/img%20(9)%20(1).jpg" alt="Taxi Service" />
-      <strong>Taxi Service</strong><br />
-      <span>Marketing</span>
-    </div>
-    <div class="portfolio-item">
-      <img src="images/img%20(7)%20(1).jpg" alt="Screen Illustrations" />
-      <strong>Screen Illustrations</strong><br />
-      <span>Design</span>
-    </div>
-    <div class="portfolio-item">
-      <img src="images/img%20(8)%20(1).jpg" alt="Online Courses" />
-      <strong>Online Courses</strong><br />
-      <span>Marketing</span>
-    </div>
-  </div>
-</section>
+      <!-- Our Team Section -->
+      <section class="our-team" style="background-color: #f4f4fd;">
+        <h2 class="team_title team_title_class">Our Team</h2>
+        <ul>
+          <li class="team_item">
+            <div class="team-card" style="background-color: #FFFFFF;">
+              <img src="images/img%20(1).jpg" alt="Mark Guerrero" />
+              <div class="team-details">
+                <h3 class="team_name">Mark Guerrero</h3>
+                <p class="role_description">Product Designer</p>
+              </div>
+            </div>
+          </li>
+          <li class="team_item">
+            <div class="team-card" style="background-color: #FFFFFF;">
+              <img src="images/img%20(2)%20(1).jpg" alt="Tom Ford" />
+              <div class="team-details">
+                <h3 class="team_name">Tom Ford</h3>
+                <p class="role_description">Frontend Developer</p>
+              </div>
+            </div>
+          </li>
+          <li class="team_item">
+            <div class="team-card" style="background-color: #FFFFFF;">
+              <img src="images/img%20(3)%20(1).jpg" alt="Camila Garcia" />
+              <div class="team-details">
+                <h3 class="team_name">Camila Garcia</h3>
+                <p class="role_description">Marketing</p>
+              </div>
+            </div>
+          </li>
+          <li class="team_item">
+            <div class="team-card" style="background-color: #FFFFFF;">
+              <img src="images/img%20(4)%20(1).jpg" alt="Daniel Wilson" />
+              <div class="team-details">
+                <h3 class="team_name">Daniel Wilson</h3>
+                <p class="role_description">UI Designer</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      
+      <!-- Portfolio Section -->
+      <section class="portfolio">
+        <h2 class="portfolio_section-title">Our Portfolio</h2>
+        <ul>
+            <li>
+                <img src="images/img%20(10)%20(1).jpg" alt="Banking App" width="360" />
+                <h3 class="portfolio_item-title">Banking Uygulaması</h3>
+                <p class="portfolio_item-description">App</p>
+            </li>
+            <li>
+                <img src="images/img%20(5)%20(1).jpg" alt="Cashless Payment" width="360" />
+                <h3 class="portfolio_item-title">Cashless Payment</h3>
+                <p class="portfolio_item-description">Marketing</p>
+            </li>
+            <li>
+                <img src="images/img%20(6)%20(1).jpg" alt="Meditation App" width="360" />
+                <h3 class="portfolio_item-title">Meditation App</h3>
+                <p class="portfolio_item-description">App</p>
+            </li>
+            <li>
+                <img src="images/img%20(9)%20(1).jpg" alt="Taxi Service" width="360" />
+                <h3 class="portfolio_item-title">Taxi Service</h3>
+                <p class="portfolio_item-description">Marketing</p>
+            </li>
+            <li>
+                <img src="images/img%20(7)%20(1).jpg" alt="Screen Illustrations" width="360" />
+                <h3 class="portfolio_item-title">Screen Illustrations</h3>
+                <p class="portfolio_item-description">Design</p>
+            </li>
+            <li>
+                <img src="images/img%20(8)%20(1).jpg" alt="Online Courses" width="360" />
+                <h3 class="portfolio_item-title">Online Courses</h3>
+                <p class="portfolio_item-description">Marketing</p>
+            </li>
+        </ul>
+    </section>
+    
+    </section>
+    
     </main>
 
-    <footer>
-      <a href="index.html">
-        <span>WEB</span>
-        <span>STUDIO</span>
+    <footer class="footer">
+      <a href="index.html" class="footer-logo">
+          <span class="footer-logo-text">WEB</span>
+          <span class="footer-logo-studio">STUDIO</span>
       </a>
-      <p>
-        Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+      <p class="footer-text">
+          Increase the flow of customers and sales for your business with digital marketing & growth solutions.
       </p>
-    </footer>
+  </footer>
+  
   </body>
 </html>

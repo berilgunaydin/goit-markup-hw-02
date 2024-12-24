@@ -1,0 +1,342 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;  /* Metin rengini belirleyin */
+    background-color: #FFFFFF;  /* Sayfa arkaplanını belirleyin */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Logo Styles */
+.logo-link {
+    font-family: 'Raleway', sans-serif; /* Raleway fontu */
+    font-weight: 700; /* Raleway ağırlığı */
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-link span {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2e2f42;  /* Span metin rengi */
+}
+
+/* Header Styles */
+header {
+    background-color: white;
+    color: slategray;
+    padding: 10px 0;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact-info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.contact-info a {
+    color: slategray;
+    font-size: 14px;
+}
+
+.contact-info a:hover {
+    color: white;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-title h1 {
+    font-family: 'Raleway', sans-serif; /* Raleway fontu */
+    font-weight: 700; /* Raleway ağırlığı */
+    font-size: 48px;
+    color: white;
+    background-color: navy;
+    margin-bottom: 0;
+}
+
+/* Order Service Section */
+.order-service {
+    margin: 0;
+    background-color: navy;
+}
+
+.order-service h2 {
+    font-family: 'Roboto', sans-serif; /* Roboto fontu */
+    font-weight: 400; /* Roboto ağırlığı */
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.order-service button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+    background-color: #FFFFFF;
+    padding: 40px 0;
+  }
+  
+  .services h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 30px;
+  }
+  
+  .services ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .services li {
+    margin-bottom: 20px;
+  }
+  
+  h3.strat_abc, h3.punc_xyz, h3.dil_123, h3.tech_789 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  
+  p.strat_abc, p.punc_xyz, p.dil_123, p.tech_789 {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  
+/* Our Team Section */
+.our-team {
+    background-color: #f4f4fd;
+  }
+  
+  .team_title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+  
+  .team_item {
+    list-style-type: none;
+  }
+  
+  .team-card {
+    background-color: #FFFFFF;
+    width: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .team-details {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .team_name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  
+  .role_description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  
+
+
+
+
+/* Portfolio Section */
+.portfolio {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.portfolio-item {
+    list-style: none;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.portfolio-item strong {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif; /* Raleway fontu */
+    font-weight: 700; /* Raleway ağırlığı */
+}
+
+.portfolio_section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.portfolio_item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio_item-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Footer Styles */
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #2e2f42; /* Footer background color */
+}
+
+/* Footer Logo Styles */
+.footer-logo {
+    font-family: 'Raleway', sans-serif; /* Raleway font */
+    font-weight: 700; /* Bold weight */
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5; /* Logo color */
+    text-decoration: none; /* Remove underline from link */
+}
+
+.footer-logo-text {
+    color: #2e2f42; /* Color for the first part of the logo */
+}
+
+/* Footer Text Styles */
+.footer-text {
+    font-family: 'Roboto', sans-serif; /* Roboto font */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD; /* Text color */
+}
+
+
+/* General Style Definitions */
+h2.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif; /* Raleway fontu */
+    font-weight: 700; /* Raleway ağırlığı */
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+p {
+    font-family: 'Roboto', sans-serif; /* Roboto fontu */
+    font-weight: 400; /* Roboto ağırlığı */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Image Adjustments */
+img {
+    width: 360px;
+    height: auto;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+}
