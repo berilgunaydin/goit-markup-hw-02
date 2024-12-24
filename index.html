@@ -1,143 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
-      integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Studio</title>
+    
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+    <!-- Normalizing CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css">
+  
+    <!-- External CSS File Link -->
+    <link rel="stylesheet" href="css/styles.css">
   </head>
+
   <body>
-    <div class="main-page">
-      <header class="header">
-        <a href="#" class="logo"
-          ><span class="logo-color">WEB</span><span>STUDİO</span></a
-        >
+    <!-- Logo bağlantısı -->
+    <a href="./index.html" target="_self" class="logo_link">
+      <span class="web_text">WEB</span>
+      <span class="studio_text">STUDIO</span>
+    </a>
 
-        <ul class="menu-list">
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacs</a></li>
-        </ul>
-
-        <address>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a href="tel:+110001111111">+11 (000) 111-11-11</a>
-        </address>
-      </header>
-
-
-      <div class="hero-image">
-
-        <div class="hero-container">
-            <h1 class="info">Effective Solutions for Your Business</h1>
-            <button class="button" type="button">Order Service</button>
+    <header>
+      <div class="header-top">
+        <!-- Logo kısmı -->
+        <a href="./index.html" class="logo_link">
+            <span class="studio_text">Studio</span>
+        </a>
+  
+        <!-- Navigasyon Menüsü -->
+        <nav class="navigation">
+            <ul>
+                <li><a href="./index.html" class="nav_link">Studio</a></li>
+                <li><a href="#" class="nav_link">Portfolio</a></li>
+                <li><a href="#" class="nav_link">Contacts</a></li>
+            </ul>
+        </nav>
+  
+        <!-- İletişim Bilgileri -->
+        <div class="contact-info">
+            <a href="mailto:info@devstudio.com" class="contact_link">info@devstudio.com</a>
+            <a href="tel:+110001111111" class="contact_link">+1 (000) 111-11-11</a>
         </div>
+      </div>
+    </header>
 
+    <!-- Ana İçerik -->
+    <main>
+      <!-- Main Title -->
+      <section class="main-title">
+        <h1 class="main-title_text">Effective Solutions <br> for Your Business</h1>
+      </section>
+
+      <!-- Order Service Section without Heading (Using div instead of section) -->
+      <div class="order-service">
+        <div class="order-service-content">
+            <button type="button">Order Service</button>
+        </div>
       </div>
 
+      <!-- Services Section -->
+      <section class="services">
+        <ul>
+          <li>
+            <h3 class="strat_abc">Strategy</h3>
+            <p class="strat_abc">Our goal is to identify the business problem and walk away with the perfect and creative solution.</p>
+          </li>
+          <li>
+            <h3 class="punc_xyz">Punctuality</h3>
+            <p class="punc_xyz">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+          </li>
+          <li>
+            <h3 class="dil_123">Diligence</h3>
+            <p class="dil_123">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+          </li>
+          <li>
+            <h3 class="tech_789">Technologies</h3>
+            <p class="tech_789">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+          </li>
+        </ul>
+      </section>
 
-
-      <section class="section-2">
-
-        <div class="our-team">
-
-            <h2 class="text">Our Team</h2>
-
-            <ul class="team">
-                <li class="team-card">
-                  <img src="./images/mark.jpg" alt="" width="264" height="260" />
-                  <h4>Mark Gurerero</h4>
-                  <p>Product Desinger</p>
-                </li>
-                <li class="team-card">
-                  <img src="./images/tom.jpg" alt="" width="264" height="260" />
-                  <h4>Tom Ford</h4>
-                  <p>Frontedn Developer</p>
-                </li>
-                <li class="team-card">
-                  <img src="./images/camila.jpg" alt="" width="264" height="260" />
-                  <h4>Camila Garcia</h4>
-                  <p>Marketing</p>
-                </li>
-                <li class="team-card">
-                  <img src="./images/daniel.jpg" alt="" width="264" height="260" />
-                  <h4>Daniel Wilson</h4>
-                  <p>UI Designer</p>
-                </li>
-              </ul>
-
-        </div>
-
-
-
-
-
+      <!-- Our Team Section -->
+      <section class="our-team" style="background-color: #f4f4fd;">
+        <h2 class="team_title team_title_class">Our Team</h2>
+        <ul>
+          <li class="team_item">
+            <div class="team-card" style="background-color: #FFFFFF;">
+              <img src="images/mark.jpg" alt="Mark Guerrero" >
+              <div class="team-details">
+                <h3 class="team_name">Mark Guerrero</h3>
+                <p class="role_description">Product Designer</p>
+              </div>
+            </div>
+          </li>
+          <li class="team_item">
+            <div class="team-card" style="background-color: #FFFFFF;">
+              <img src="images/tom.jpg" alt="Tom Ford" >
+              <div class="team-details">
+                <h3 class="team_name">Tom Ford</h3>
+                <p class="role_description">Frontend Developer</p>
+              </div>
+            </div>
+          </li>
+          <li class="team_item">
+            <div class="team-card" style="background-color: #FFFFFF;">
+              <img src="images/camila.jpg" alt="Camila Garcia" >
+              <div class="team-details">
+                <h3 class="team_name">Camila Garcia</h3>
+                <p class="role_description">Marketing</p>
+              </div>
+            </div>
+          </li>
+          <li class="team_item">
+            <div class="team-card" style="background-color: #FFFFFF;">
+              <img src="images/daniel.jpg" alt="Daniel Wilson" >
+              <div class="team-details">
+                <h3 class="team_name">Daniel Wilson</h3>
+                <p class="role_description">UI Designer</p>
+              </div>
+            </div>
+          </li>
+        </ul>
       </section>
       
       <!-- Portfolio Section -->
       <section class="portfolio">
         <h2 class="portfolio_section-title">Our Portfolio</h2>
-        <ul class="portfolio-grid">
-            <li class="portfolio-item">
-                <img src="images/img%20(10)%20(1).jpg" alt="Banking App" width="360">
+        <ul>
+            <li>
+                <img src="images/img%20(10)%20(1).jpg" alt="Banking App" width="360" >
                 <h3 class="portfolio_item-title">Banking Uygulaması</h3>
                 <p class="portfolio_item-description">App</p>
             </li>
-            <li class="portfolio-item">
-                <img src="images/img%20(5)%20(1).jpg" alt="Cashless Payment" width="360">
+            <li>
+                <img src="images/img%20(5)%20(1).jpg" alt="Cashless Payment" width="360" >
                 <h3 class="portfolio_item-title">Cashless Payment</h3>
                 <p class="portfolio_item-description">Marketing</p>
             </li>
-            <li class="portfolio-item">
-                <img src="images/img%20(6)%20(1).jpg" alt="Meditation App" width="360">
+            <li>
+                <img src="images/img%20(6)%20(1).jpg" alt="Meditation App" width="360" >
                 <h3 class="portfolio_item-title">Meditation App</h3>
                 <p class="portfolio_item-description">App</p>
             </li>
-            <li class="portfolio-item">
-                <img src="images/img%20(9)%20(1).jpg" alt="Taxi Service" width="360">
+            <li>
+                <img src="images/img%20(9)%20(1).jpg" alt="Taxi Service" width="360" >
                 <h3 class="portfolio_item-title">Taxi Service</h3>
                 <p class="portfolio_item-description">Marketing</p>
             </li>
-            <li class="portfolio-item">
-                <img src="images/img%20(7)%20(1).jpg" alt="Screen Illustrations" width="360">
+            <li>
+                <img src="images/img%20(7)%20(1).jpg" alt="Screen Illustrations" width="360" >
                 <h3 class="portfolio_item-title">Screen Illustrations</h3>
                 <p class="portfolio_item-description">Design</p>
             </li>
-            <li class="portfolio-item">
-                <img src="images/img%20(8)%20(1).jpg" alt="Online Courses" width="360">
+            <li>
+                <img src="images/img%20(8)%20(1).jpg" alt="Online Courses" width="360" >
                 <h3 class="portfolio_item-title">Online Courses</h3>
                 <p class="portfolio_item-description">Marketing</p>
             </li>
         </ul>
-    </section>
-    
+      </section>
     </main>
 
     <!-- Footer Section -->
- 
-    <footer>
-      <a href="#" class="footer-logo">
-          <span class="footer-logo-text">WEB</span><span class="footer-logo-studio">STUDIO</span>
+    <footer class="footer">
+      <a href="index.html" class="footer-logo">
+          <span class="footer-logo-text">WEB</span>
+          <span class="footer-logo-studio">STUDIO</span>
       </a>
-      <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+      <p class="footer-text">
+          Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+      </p>
     </footer>
-    
-
-    
-  
   </body>
 </html>
