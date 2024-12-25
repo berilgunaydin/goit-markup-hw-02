@@ -3,181 +3,353 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    
     <header class="header">
-      <a href="#" class="logo"><span class="logo-color">WEB</span>STUDİO</a>
-
-      <ul class="menu-list">
-        <li><a href="">Studio</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">Contacs</a></li>
-      </ul>
-
-      <address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+      
+      <nav class="navigation">
+        <a href="./index.html" class="logo">Web<span class="prt">Studio</span></a>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="/" class="navigation__link">Studio</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">Portfolio</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="contact">
+        <ul class="contakt-list">
+          <li class="contact-list__item">
+            <a href="mailto:info@devstudio.com" class="contact-list__link"
+              >info@devstudio.com
+             
+            </a>
+          </li>
+          <li class="contact-list__item">
+            <a href="tel:+110001111111" class="contact-list__link"
+              >+11 (000) 111-11-11
+             
+            </a>
+          </li>
+        </ul>
       </address>
+      <!-- </div> -->
     </header>
 
     <main>
-      <div class="hero-image">
-        <h1 class="text">Effective Solutions for Your Business</h1>
-        <button class="button" type="button">Order Service</button>
-      </div>
-
-      <section class="section1">
-        <ul class="features">
-          <li class="feature">
-            <h3>Strategy</h3>
-            <p>
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li class="feature">
-            <h3>Punctuality</h3>
-            <p>
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li class="feature">
-            <h3>Diligence</h3>
-            <p>
-              OResearch and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li class="feature">
-            <h3>Technologies</h3>
-            <p>
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+     
+      <section class="hero overlay">
+        <!-- <div class="container"> -->
+        <h1 class="hero__title">Effective Solutions for Your Business</h1>
+        <button type="button" class="hero__btn btn">Order Service</button>
+        <!-- </div> -->
       </section>
 
-      <section class="section2">
-        <h2 class="our-team">Our Team</h2>
-        <ul class="team">
-          <li class="team-card">
-            <img src="./images/mark.jpg" alt="" width="264" height="260" />
-            <h4>Mark Gurerero</h4>
-            <p>Product Desinger</p>
+      <section class="peculiarities">
+      
+        <h2 class="visually-hidden">Peculiarities</h2>
+        <ul class="peculiarities__list">
+          <li class="peculiarities__item">
+            <h3 class="peculiarities__title">Strategy</h3>
+            <p class="peculiarities__text">
+              Our goal is to identify the business problem to walk away with the perfect and
+              creative solution.
+            </p>
           </li>
-          <li class="team-card">
-            <img src="./images/tom.jpg" alt="" width="264" height="260" />
-            <h4>Tom Ford</h4>
-            <p>Frontedn Developer</p>
+          <li class="peculiarities__item">
+            <h3 class="peculiarities__title">Punctuality</h3>
+            <p class="peculiarities__text">
+              Bring the key message to the brand's audience for the best price within the shortest
+              possible time.
+            </p>
           </li>
-          <li class="team-card">
-            <img src="./images/camila.jpg" alt="" width="264" height="260" />
-            <h4>Camila Garcia</h4>
-            <p>Marketing</p>
+          <li class="peculiarities__item">
+            <h3 class="peculiarities__title">Diligence</h3>
+            <p class="peculiarities__text">
+              Research and confirm brands that present the strongest digital growth opportunities
+              and minimize risk.
+            </p>
           </li>
-          <li class="team-card">
-            <img src="./images/daniel.jpg" alt="" width="264" height="260" />
-            <h4>Daniel Wilson</h4>
-            <p>UI Designer</p>
+          <li class="peculiarities__item">
+            <h3 class="peculiarities__title">Technologies</h3>
+            <p class="peculiarities__text">
+              Design practice focused on digital experiences. We bring forth a deep passion for
+              problem-solving.
+            </p>
           </li>
         </ul>
+        <!-- </div> -->
       </section>
 
-      <section class="section3">
-        <h2 class="our-portfolio">Our Portfolio</h2>
-        <ul class="row1">
-          <li class="p-card">
+      <!--our team-->
+      <section class="team">
+        <!-- <div class="container"> -->
+        <h2 class="team__title">Our Team</h2>
+        <ul class="team__list">
+          <li class="team__item">
             <img
-              src="./images/p-card1.jpg"
-              alt="Proje kart 1 görseli"
-              width="360"
-              height="300"
+              src="./images/mark.jpg"
+              alt="Mark Guerrero"
+              width="264"
             />
-            <h4>Banking App</h4>
-            <p>App</p>
+            <!-- <picture>
+                <source />
+                <source />
+                <source />
+                <img />
+              </picture> -->
+            <!-- <div class="team__content"> -->
+            <h3 class="team__name">Mark Guerrero</h3>
+            <p class="team__text">Product Designer</p>
+            <!-- <ul class="team__soc-list">
+                  <li class="team__soc-item">
+                    <a href="" class="team__soc-link">
+                      <svg class="team__soc-icon">
+                        <use></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team__soc-item">
+                    <a href="" class="team__soc-link">
+                      <svg class="team__soc-icon">
+                        <use></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team__soc-item">
+                    <a href="" class="team__soc-link">
+                      <svg class="team__soc-icon">
+                        <use></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team__soc-item">
+                    <a href="" class="team__soc-link">
+                      <svg class="team__soc-icon">
+                        <use></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul> -->
+            <!-- </div> -->
           </li>
-          <li class="p-card">
-            <img
-              src="./images/p-card2.jpg"
-              alt="Proje kart 2 görseli"
-              width="360"
-              height="300"
-            />
-            <h4>Cashless Payment</h4>
-            <p>Marketing</p>
+          <li class="team__item">
+            <img src="./images/tom.jpg" alt="Tom Ford" width="264" />
+            <!-- <picture>
+                <source />
+                <source />
+                <source />
+                <img />
+              </picture> -->
+            <!-- <div class="team__content"> -->
+            <h3 class="team__name">Tom Ford</h3>
+            <p class="team__text">Frontend Developer</p>
+            <!-- <ul class="team__soc-list">
+                    <li class="team__soc-item">
+                        <a href="" class="team__soc-link">
+                            <svg class="team__soc-icon">
+                                <use></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__soc-item">
+                        <a href="" class="team__soc-link">
+                            <svg class="team__soc-icon">
+                                <use></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__soc-item">
+                        <a href="" class="team__soc-link">
+                            <svg class="team__soc-icon">
+                                <use></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__soc-item">
+                        <a href="" class="team__soc-link">
+                            <svg class="team__soc-icon">
+                                <use></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul> -->
+            <!-- </div> -->
           </li>
-          <li class="p-card">
+          <li class="team__item">
             <img
-              src="./images/p-card3.jpg"
-              alt="Proje kart 3 görseli"
-              width="360"
-              height="300"
+              src="./images/camila.jpg"
+              alt="Camila Garcia"
+              width="264"
             />
-            <h4>Meditation App</h4>
-            <p>App</p>
+            <!-- <picture>
+                <source />
+                <source />
+                <source />
+                <img />
+              </picture> -->
+            <!-- <div class="team__content"> -->
+            <h3 class="team__name">Camila Garcia</h3>
+            <p class="team__text">Marketing</p>
+            <!-- <ul class="team__soc-list">
+                    <li class="team__soc-item">
+                        <a href="" class="team__soc-link">
+                            <svg class="team__soc-icon">
+                                <use></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__soc-item">
+                        <a href="" class="team__soc-link">
+                            <svg class="team__soc-icon">
+                                <use></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__soc-item">
+                        <a href="" class="team__soc-link">
+                            <svg class="team__soc-icon">
+                                <use></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__soc-item">
+                        <a href="" class="team__soc-link">
+                            <svg class="team__soc-icon">
+                                <use></use>
+                            </svg>
+                        </a>
+                    </li>                            
+                </ul> -->
+            <!-- </div> -->
+          </li>
+          <li class="team__item">
+            <img
+              src="./images/daniel.jpg"
+              alt="Daniel Wilson"
+              width="264"
+            />
+            <!-- <picture>
+                <source />
+                <source />
+                <source />
+                <img />
+              </picture> -->
+            <!-- <div class="team__content"> -->
+            <h3 class="team__name">Daniel Wilson</h3>
+            <p class="team__text">UI Designer</p>
+            <!-- <ul class="team__soc-list">
+                    <li class="team__soc-item">
+                        <a href="" class="team__soc-link">
+                            <svg class="team__soc-icon">
+                                <use></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__soc-item">
+                        <a href="" class="team__soc-link">
+                            <svg class="team__soc-icon">
+                                <use></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__soc-item">
+                        <a href="" class="team__soc-link">
+                            <svg class="team__soc-icon">
+                                <use></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team__soc-item">
+                        <a href="" class="team__soc-link">
+                            <svg class="team__soc-icon">
+                                <use></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul> -->
+            <!-- </div> -->
           </li>
         </ul>
+        <!-- </div> -->
+      </section>
 
-        <ul class="row2">
-          <li class="p-card">
-            <img
-              src="./images/p-card4.jpg"
-              alt="Proje kart 4 görseli"
-              width="360"
-              height="300"
-            />
-            <h4>Taxi Service</h4>
-            <p>Marketing</p>
+      <!---------------------- Portfolio ---------------------->
+      <section class="portfolio">
+        <h2 class="portfolio__title">Our Portfolio</h2>
+        <ul class="portfolio__list">
+          <li class="portfolio__item">
+            <!-- <a href="" class="portfolio__link"> -->
+              <img src="./images/p-card1.jpg" alt="banking app" width="360">
+              <h3 class="portfolio__cart-title">Banking App</h3>
+              <p class="portfolio__card-text">App</p>
+            <!-- </a> -->
           </li>
-          <li class="p-card">
-            <img
-              src="./images/p-card5.jpg"
-              alt="Proje kart 5 görseli"
-              width="360"
-              height="300"
-            />
-            <h4>Screen Illustrations</h4>
-            <p>Design</p>
+          <li class="portfolio__item">
+            <!-- <a href="" class="portfolio__link"> -->
+              <img src="./images/p-card2.jpg" alt="scanning qr code" width="360">
+              <h3 class="portfolio__cart-title">Cashless Payment</h3>
+              <p class="portfolio__card-text">Marketing</p>
+            <!-- </a> -->
           </li>
-          <li class="p-card">
-            <img
-              src="./images/p-card6.jpg"
-              alt="Proje kart 6 görseli"
-              width="360"
-              height="300"
-            />
-            <h4>Online Courses</h4>
-            <p>Marketing</p>
+          <li class="portfolio__item">
+            <!-- <a href="" class="portfolio__link"> -->
+              <img src="./images/p-card3.jpg" alt="laptop & phone" width="360">
+              <h3 class="portfolio__cart-title">Meditation App</h3>
+              <p class="portfolio__card-text">App</p>
+            <!-- </a> -->
+          </li>
+          <li class="portfolio__item">
+            <!-- <a href="" class="portfolio__link"> -->
+              <img src="./images/p-card4.jpg" alt="vehicle interior" width="360">
+              <h3 class="portfolio__cart-title">Taxi Service</h3>
+              <p class="portfolio__card-text">Marketing</p>
+            <!-- </a> -->
+          </li>
+          <li class="portfolio__item">
+            <!-- <a href="" class="portfolio__link"> -->
+              <img src="./images/p-card5.jpg" alt="phone theme designe" width="360">
+              <h3 class="portfolio__cart-title">Screen Illustrations</h3>
+              <p class="portfolio__card-text">Design</p>
+            <!-- </a> -->
+          </li>
+          <li class="portfolio__item">
+            <!-- <a href="" class="portfolio__link"> -->
+              <img src="./images/p-card6.jpg" alt="girl in headphones" width="360">
+              <h3 class="portfolio__cart-title">Online Courses</h3>
+              <p class="portfolio__card-text">Marketing</p>
+            <!-- </a> -->
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <a href="#" class="footer-logo"
-        ><span class="logo-color">WEB</span>STUDİO</a
-      >
-      <p class="info">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
+    <!--                 Footer                 -->
+    <footer class="footer">
+      <a href="./index.html" class="logo">Web<span class="prt">Studio</span></a>
+      <p class="footer__text">
+        Increase the flow of customers and sales for your business with digital marketing & growth
+        solutions.
       </p>
     </footer>
   </body>
